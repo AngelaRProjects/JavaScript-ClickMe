@@ -4,11 +4,11 @@
 
 <head>
 
- <title>Angela's Bio</title>
+ <title>Angela Ruslander's Bio</title>
 
  <style>
 
-   #bio-box { border: 1px solid #ccc; padding: 10px; width: 800px; }
+   #bio-box { border: 1px solid #ccc; padding: 10px; width:1200px; }
 
    #hobbies { display: none; margin-top: 10px; text-align: center; font-size: 20px; color: blue;}
 
@@ -26,17 +26,17 @@
 
  <div id="bio-box">
 
-   <img src="img/Photo 1.jpg" alt="Angela's Photo" id="profile-pic" width="800"><br><br>
+   <img src="img/Photo 1.jpg" alt="Maya, my dog, looking at the Niagara River" id="profile-pic" width="1200"><br><br>
 
-   <button onclick="changeTextColor()" style="background-color: blue; color:white; width: 200px; padding: 10px; margin: 4px;">Change Text Color</button>
+   <button onclick="changeTextColor()" style="background-color: blue; color:white; width: 225px; padding: 10px; margin: 5px;">Change Text Color</button>
 
-   <button onclick="updateName()"  style="background-color: blue; color:white; width: 200px; padding: 10px; margin: 4px;">Update Name</button>
+   <button onclick="updateName()"  style="background-color: blue; color:white; width: 225px; padding: 10px; margin: 5px;">Update Name</button>
 
-   <button onclick="toggleHobbies()" style="background-color: blue; color:white; width: 200px; padding: 10px; margin: 4px;">Show/Hide Hobbies</button>
+   <button onclick="toggleHobbies()" style="background-color: blue; color:white; width: 225px; padding: 10px; margin: 5px;">Show/Hide Hobbies</button>
 
-   <button onclick="resetBio()" style="background-color: blue; color:white; width: 200px; padding: 10px; margin: 4px;">Reset</button>
+   <button onclick="resetBio()" style="background-color: blue; color:white; width: 225px; padding: 10px; margin: 5px;">Reset</button>
 
-   <button onclick="changeImage()" style="background-color: blue; color:white; width: 200px; padding: 10px; margin: 4px;">Change Image</button>
+   <button onclick="changeImage()" style="background-color: blue; color:white; width: 225px; padding: 10px; margin: 5px;">Change Image</button>
 
    <div id="hobbies">
 
@@ -88,14 +88,14 @@
 
      document.getElementById("hobbies").style.display = "none";
 
-     document.getElementById("profile-pic").src='img/Angela_Photo.jpg';
+     document.getElementById("profile-pic").src='img/Photo 1.jpg';
 
    }
 
     function changeImage() {
     
     document.getElementById("profile-pic").src='img/Photo 2.jpg';
-    document.getElementById("profile-pic").style.width="800";
+    document.getElementById("profile-pic").style.width="1200";
    }
  </script>
 
